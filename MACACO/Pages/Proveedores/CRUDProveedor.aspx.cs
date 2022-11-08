@@ -13,8 +13,6 @@ namespace MACACO.Pages.Proveedores
 {
     public partial class CRUDProveedor : System.Web.UI.Page
     {
-        int rol = -1;
-        int est = -1;
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ToString());
         public static string sID = "-1";
         public static string sOpc = "";

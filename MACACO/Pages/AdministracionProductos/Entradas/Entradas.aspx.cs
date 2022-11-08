@@ -34,7 +34,7 @@ namespace MACACO.Pages.AdministracionProductos.Entradas
                 cmd.Parameters.Add("@id_rol", SqlDbType.Int).Value = id_rol;
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
-                bool Create, Read, Update, Delete;
+                bool Create, Read;
 
                 //foreach  (GridViewRow fila in seleccionarusuarios.Rows)
                 while (reader.Read())
